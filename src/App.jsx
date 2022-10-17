@@ -9,6 +9,7 @@ function App() {
       name: "Assembly",
       items: ["item1", "item2", "item3"],
     },
+    
     {
       name: "Idea",
       items: [],
@@ -108,7 +109,7 @@ function App() {
 
   return (
     <div className="container min-vh-100">
-      <h5>Assembly Line</h5>
+      <h5>Edgar Task Manager</h5>
       <AssemblyLine
         stages={stages[0].items}
         onAdd={addAssemblyLineItem}
